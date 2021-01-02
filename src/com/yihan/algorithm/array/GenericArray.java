@@ -7,7 +7,7 @@ public class GenericArray<T> {
     private int size;
 
     GenericArray(int capacity) {
-        array = (T[]) new Objects[capacity];
+        array = (T[]) new Object[capacity];
         size = 0;
 
     }
