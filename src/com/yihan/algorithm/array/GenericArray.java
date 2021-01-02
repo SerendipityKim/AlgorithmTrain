@@ -1,10 +1,10 @@
 package com.yihan.algorithm.array;
 
-import java.util.Objects;
 
 public class GenericArray<T> {
     private T[] array;
     private int size;
+
 
     GenericArray(int capacity) {
         array = (T[]) new Object[capacity];
@@ -114,7 +114,8 @@ public class GenericArray<T> {
     }
 
     public static void main(String[] args) {
-        GenericArray<Object> genericArray = new GenericArray<>(5);
+        GenericArray<String> genericArray = new GenericArray<>(5);
+        genericArray.add(0, "");
 //
         System.out.println(genericArray.toString());
 
