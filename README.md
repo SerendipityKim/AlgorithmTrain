@@ -1,2 +1,2 @@
 # AlgorithmTrain
-algo train merge
+algo train merge test
